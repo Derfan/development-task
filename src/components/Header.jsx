@@ -17,7 +17,7 @@ const getCounter = (state, count) => {
     }
 };
 
-const Header = ({title, albumsCount, location: {state}}) => {
+export const Header = ({title, albumsCount, location: {state}}) => {
     const countText = getCounter(state, albumsCount);
 
     return (
