@@ -1,0 +1,82 @@
+{
+  "albums": [
+    [
+      {
+        "albumId": 1,
+        "id": 1,
+        "title": "accusamus beatae ad facilis cum similique qui sunt",
+        "url": "https://via.placeholder.com/600/92c952",
+        "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+      },
+      {
+        "albumId": 1,
+        "id": 2,
+        "title": "reprehenderit est deserunt velit ipsam",
+        "url": "https://via.placeholder.com/600/771796",
+        "thumbnailUrl": "https://via.placeholder.com/150/771796"
+      }
+    ],
+    [
+      {
+        "albumId": 2,
+        "id": 86,
+        "title": "qui vel ut odio consequuntur",
+        "url": "https://via.placeholder.com/600/fd5751",
+        "thumbnailUrl": "https://via.placeholder.com/150/fd5751"
+      }
+    ],
+    [
+      {
+        "albumId": 3,
+        "id": 145,
+        "title": "eius unde ipsa incidunt corrupti quia accusamus omnis",
+        "url": "https://via.placeholder.com/600/f3472e",
+        "thumbnailUrl": "https://via.placeholder.com/150/f3472e"
+      },
+      {
+        "albumId": 3,
+        "id": 146,
+        "title": "ullam dolor ut ipsa veniam",
+        "url": "https://via.placeholder.com/600/6c746e",
+        "thumbnailUrl": "https://via.placeholder.com/150/6c746e"
+      },
+      {
+        "albumId": 3,
+        "id": 147,
+        "title": "minima aspernatur eius nemo ut",
+        "url": "https://via.placeholder.com/600/661f4c",
+        "thumbnailUrl": "https://via.placeholder.com/150/661f4c"
+      }
+    ]
+  ],
+  "album": [
+    {
+      "albumId": 1,
+      "id": 1,
+      "title": "accusamus beatae ad facilis cum similique qui sunt",
+      "url": "https://via.placeholder.com/600/92c952",
+      "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+    },
+    {
+      "albumId": 1,
+      "id": 2,
+      "title": "reprehenderit est deserunt velit ipsam",
+      "url": "https://via.placeholder.com/600/771796",
+      "thumbnailUrl": "https://via.placeholder.com/150/771796"
+    },
+    {
+      "albumId": 1,
+      "id": 3,
+      "title": "officia porro iure quia iusto qui ipsa ut modi",
+      "url": "https://via.placeholder.com/600/24f355",
+      "thumbnailUrl": "https://via.placeholder.com/150/24f355"
+    }
+  ],
+  "photo": {
+    "albumId": 1,
+    "id": 22,
+    "title": "et ea illo et sit voluptas animi blanditiis porro",
+    "url": "https://via.placeholder.com/600/45601a",
+    "thumbnailUrl": "https://via.placeholder.com/150/45601a"
+  }
+}
