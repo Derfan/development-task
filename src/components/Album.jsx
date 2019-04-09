@@ -1,19 +1,19 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import {ListWrapper, StyledLink} from "../helpers";
 
 export default ({location: {state: {album}}}) => (
-    <div>
+    <ListWrapper>
         {
             album.map(photo =>
-                <Link
+                <StyledLink
                     key={photo.id}
                     to={{pathname: `/${photo.albumId}/${photo.id}`, state: {photo}}}
                 >
-                    <img src={photo.thumbnailUrl} alt={photo.title}/>
-
                     <p>{photo.title}</p>
-                </Link>
+
+                    <img src={photo.thumbnailUrl} alt={photo.title}/>
+                </StyledLink>
             )
         }
-    </div>
+    </ListWrapper>
 )
