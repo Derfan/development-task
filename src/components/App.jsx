@@ -1,6 +1,6 @@
-import React, {Component} from "react";
-import {BrowserRouter, Route} from "react-router-dom";
-import {getAlbumsList} from "../api";
+import React, { Component } from "react";
+import { BrowserRouter, Route } from "react-router-dom";
+import { getAlbumsList } from "../api";
 import Header from "./Header";
 import AlbumsList from "./AlbumsList";
 import Album from "./Album";
@@ -13,12 +13,13 @@ class App extends Component {
     };
 
     componentDidMount() {
-        getAlbumsList()
-            .then(albums => this.setState({albums, isLoading: false}));
+        getAlbumsList().then(this.setAlbums);
     }
 
+    setAlbums = albums => this.setState({ albums, isLoading: false });
+
     render() {
-        const {albums, isLoading} = this.state;
+        const { albums, isLoading } = this.state;
         return (
             <BrowserRouter>
                 <Header
@@ -32,7 +33,7 @@ class App extends Component {
 
                 <Route path="/:album_id/:photo_id" render={props => <Photo {...props}/>}/>
 
-                {isLoading && "Loading..."}
+                { isLoading && "Loading..." }
             </BrowserRouter>
         );
     }

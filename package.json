@@ -1,6 +1,8 @@
 {
-  "name": "ciklum",
-  "version": "0.1.0",
+  "name": "simple-image-gallery",
+  "version": "1.0.0",
+  "author": "Boris Medvedev <b.medvedev@icloud.com>",
+  "homepage": "https://github.com/Derfan/development-task#readme",
   "private": true,
   "dependencies": {
     "enzyme": "^3.9.0",
@@ -14,7 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --coverage",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

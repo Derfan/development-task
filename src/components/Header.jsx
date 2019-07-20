@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import {withRouter} from "react-router-dom";
 
-const getCounter = (state, count) => {
+export const getCounter = (state, count) => {
     if (!state) return `Number of albums: ${count}`;
 
     const key = Object.keys(state)[0];
