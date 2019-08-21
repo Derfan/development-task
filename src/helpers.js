@@ -17,8 +17,9 @@ const media = Object.keys(sizes).reduce((acc, label) => {
     return acc
 }, {});
 
+export const formatQuery = obj => new URLSearchParams(obj).toString();
+
 export const formAlbums = arr => Object.values(arr
-    .slice(0, 300)
     .reduce((prev, {albumId, ...rest}) => {
         if (albumId in prev) {
             prev[albumId] = [...prev[albumId], {albumId, ...rest}];
