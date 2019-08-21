@@ -10,6 +10,10 @@ const props = {
 describe("Album", () => {
     const component = shallow(<Photo {...props} />);
 
+    it("Album snapshot", () => {
+        expect(component).toMatchSnapshot();
+    });
+
     it("render", () => {
         expect(component.find("div")).toHaveLength(1);
         expect(component.find("img")).toHaveLength(1);

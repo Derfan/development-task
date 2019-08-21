@@ -1,0 +1,1038 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Album Album snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <_default
+    albums={
+      Array [
+        Array [
+          Object {
+            "albumId": 1,
+            "id": 1,
+            "thumbnailUrl": "https://via.placeholder.com/150/92c952",
+            "title": "accusamus beatae ad facilis cum similique qui sunt",
+            "url": "https://via.placeholder.com/600/92c952",
+          },
+          Object {
+            "albumId": 1,
+            "id": 2,
+            "thumbnailUrl": "https://via.placeholder.com/150/771796",
+            "title": "reprehenderit est deserunt velit ipsam",
+            "url": "https://via.placeholder.com/600/771796",
+          },
+        ],
+        Array [
+          Object {
+            "albumId": 2,
+            "id": 86,
+            "thumbnailUrl": "https://via.placeholder.com/150/fd5751",
+            "title": "qui vel ut odio consequuntur",
+            "url": "https://via.placeholder.com/600/fd5751",
+          },
+        ],
+        Array [
+          Object {
+            "albumId": 3,
+            "id": 145,
+            "thumbnailUrl": "https://via.placeholder.com/150/f3472e",
+            "title": "eius unde ipsa incidunt corrupti quia accusamus omnis",
+            "url": "https://via.placeholder.com/600/f3472e",
+          },
+          Object {
+            "albumId": 3,
+            "id": 146,
+            "thumbnailUrl": "https://via.placeholder.com/150/6c746e",
+            "title": "ullam dolor ut ipsa veniam",
+            "url": "https://via.placeholder.com/600/6c746e",
+          },
+          Object {
+            "albumId": 3,
+            "id": 147,
+            "thumbnailUrl": "https://via.placeholder.com/150/661f4c",
+            "title": "minima aspernatur eius nemo ut",
+            "url": "https://via.placeholder.com/600/661f4c",
+          },
+        ],
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <ForwardRef
+          to={
+            Object {
+              "pathname": "/1",
+              "state": Object {
+                "album": Array [
+                  Object {
+                    "albumId": 1,
+                    "id": 1,
+                    "thumbnailUrl": "https://via.placeholder.com/150/92c952",
+                    "title": "accusamus beatae ad facilis cum similique qui sunt",
+                    "url": "https://via.placeholder.com/600/92c952",
+                  },
+                  Object {
+                    "albumId": 1,
+                    "id": 2,
+                    "thumbnailUrl": "https://via.placeholder.com/150/771796",
+                    "title": "reprehenderit est deserunt velit ipsam",
+                    "url": "https://via.placeholder.com/600/771796",
+                  },
+                ],
+              },
+            }
+          }
+        >
+          <p>
+            Album 
+            1
+          </p>
+          <img
+            alt="accusamus beatae ad facilis cum similique qui sunt"
+            src="https://via.placeholder.com/150/92c952"
+          />
+        </ForwardRef>,
+        <ForwardRef
+          to={
+            Object {
+              "pathname": "/2",
+              "state": Object {
+                "album": Array [
+                  Object {
+                    "albumId": 2,
+                    "id": 86,
+                    "thumbnailUrl": "https://via.placeholder.com/150/fd5751",
+                    "title": "qui vel ut odio consequuntur",
+                    "url": "https://via.placeholder.com/600/fd5751",
+                  },
+                ],
+              },
+            }
+          }
+        >
+          <p>
+            Album 
+            2
+          </p>
+          <img
+            alt="qui vel ut odio consequuntur"
+            src="https://via.placeholder.com/150/fd5751"
+          />
+        </ForwardRef>,
+        <ForwardRef
+          to={
+            Object {
+              "pathname": "/3",
+              "state": Object {
+                "album": Array [
+                  Object {
+                    "albumId": 3,
+                    "id": 145,
+                    "thumbnailUrl": "https://via.placeholder.com/150/f3472e",
+                    "title": "eius unde ipsa incidunt corrupti quia accusamus omnis",
+                    "url": "https://via.placeholder.com/600/f3472e",
+                  },
+                  Object {
+                    "albumId": 3,
+                    "id": 146,
+                    "thumbnailUrl": "https://via.placeholder.com/150/6c746e",
+                    "title": "ullam dolor ut ipsa veniam",
+                    "url": "https://via.placeholder.com/600/6c746e",
+                  },
+                  Object {
+                    "albumId": 3,
+                    "id": 147,
+                    "thumbnailUrl": "https://via.placeholder.com/150/661f4c",
+                    "title": "minima aspernatur eius nemo ut",
+                    "url": "https://via.placeholder.com/600/661f4c",
+                  },
+                ],
+              },
+            }
+          }
+        >
+          <p>
+            Album 
+            3
+          </p>
+          <img
+            alt="eius unde ipsa incidunt corrupti quia accusamus omnis"
+            src="https://via.placeholder.com/150/f3472e"
+          />
+        </ForwardRef>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <p>
+              Album 
+              1
+            </p>,
+            <img
+              alt="accusamus beatae ad facilis cum similique qui sunt"
+              src="https://via.placeholder.com/150/92c952"
+            />,
+          ],
+          "to": Object {
+            "pathname": "/1",
+            "state": Object {
+              "album": Array [
+                Object {
+                  "albumId": 1,
+                  "id": 1,
+                  "thumbnailUrl": "https://via.placeholder.com/150/92c952",
+                  "title": "accusamus beatae ad facilis cum similique qui sunt",
+                  "url": "https://via.placeholder.com/600/92c952",
+                },
+                Object {
+                  "albumId": 1,
+                  "id": 2,
+                  "thumbnailUrl": "https://via.placeholder.com/150/771796",
+                  "title": "reprehenderit est deserunt velit ipsam",
+                  "url": "https://via.placeholder.com/600/771796",
+                },
+              ],
+            },
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Album ",
+                1,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Album ",
+              1,
+            ],
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "accusamus beatae ad facilis cum similique qui sunt",
+              "src": "https://via.placeholder.com/150/92c952",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": true,
+            "rules": Array [
+              "
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 16px;
+    transition: background .1s ease-in-out;
+    &:hover {
+      background: #e3e3e3;
+    }
+",
+            ],
+          },
+          "displayName": "Styled(Link)",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": [Function],
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <p>
+              Album 
+              2
+            </p>,
+            <img
+              alt="qui vel ut odio consequuntur"
+              src="https://via.placeholder.com/150/fd5751"
+            />,
+          ],
+          "to": Object {
+            "pathname": "/2",
+            "state": Object {
+              "album": Array [
+                Object {
+                  "albumId": 2,
+                  "id": 86,
+                  "thumbnailUrl": "https://via.placeholder.com/150/fd5751",
+                  "title": "qui vel ut odio consequuntur",
+                  "url": "https://via.placeholder.com/600/fd5751",
+                },
+              ],
+            },
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Album ",
+                2,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Album ",
+              2,
+            ],
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "qui vel ut odio consequuntur",
+              "src": "https://via.placeholder.com/150/fd5751",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": true,
+            "rules": Array [
+              "
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 16px;
+    transition: background .1s ease-in-out;
+    &:hover {
+      background: #e3e3e3;
+    }
+",
+            ],
+          },
+          "displayName": "Styled(Link)",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": [Function],
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": "3",
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <p>
+              Album 
+              3
+            </p>,
+            <img
+              alt="eius unde ipsa incidunt corrupti quia accusamus omnis"
+              src="https://via.placeholder.com/150/f3472e"
+            />,
+          ],
+          "to": Object {
+            "pathname": "/3",
+            "state": Object {
+              "album": Array [
+                Object {
+                  "albumId": 3,
+                  "id": 145,
+                  "thumbnailUrl": "https://via.placeholder.com/150/f3472e",
+                  "title": "eius unde ipsa incidunt corrupti quia accusamus omnis",
+                  "url": "https://via.placeholder.com/600/f3472e",
+                },
+                Object {
+                  "albumId": 3,
+                  "id": 146,
+                  "thumbnailUrl": "https://via.placeholder.com/150/6c746e",
+                  "title": "ullam dolor ut ipsa veniam",
+                  "url": "https://via.placeholder.com/600/6c746e",
+                },
+                Object {
+                  "albumId": 3,
+                  "id": 147,
+                  "thumbnailUrl": "https://via.placeholder.com/150/661f4c",
+                  "title": "minima aspernatur eius nemo ut",
+                  "url": "https://via.placeholder.com/600/661f4c",
+                },
+              ],
+            },
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Album ",
+                3,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Album ",
+              3,
+            ],
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "eius unde ipsa incidunt corrupti quia accusamus omnis",
+              "src": "https://via.placeholder.com/150/f3472e",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": true,
+            "rules": Array [
+              "
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 16px;
+    transition: background .1s ease-in-out;
+    &:hover {
+      background: #e3e3e3;
+    }
+",
+            ],
+          },
+          "displayName": "Styled(Link)",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": [Function],
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        },
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bwzfXH",
+        "isStatic": true,
+        "rules": Array [
+          "
+    display: flex;
+    flex-wrap: wrap;
+    ",
+          ".sc-bdVaJa",
+          " {
+      width: ",
+          "16.666666666666668",
+          "%;
+      ",
+          "
+    @media (max-width: ",
+          "62",
+          "em) {
+      ",
+          "
+        width: ",
+          "33.333333333333336",
+          "%;
+      ",
+          "
+    }
+  ",
+          "
+      ",
+          "
+    @media (max-width: ",
+          "36",
+          "em) {
+      ",
+          "
+        width: 100%;
+      ",
+          "
+    }
+  ",
+          "
+    }
+",
+        ],
+      },
+      "displayName": "styled.section",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-bwzfXH",
+      "target": "section",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <ForwardRef
+            to={
+              Object {
+                "pathname": "/1",
+                "state": Object {
+                  "album": Array [
+                    Object {
+                      "albumId": 1,
+                      "id": 1,
+                      "thumbnailUrl": "https://via.placeholder.com/150/92c952",
+                      "title": "accusamus beatae ad facilis cum similique qui sunt",
+                      "url": "https://via.placeholder.com/600/92c952",
+                    },
+                    Object {
+                      "albumId": 1,
+                      "id": 2,
+                      "thumbnailUrl": "https://via.placeholder.com/150/771796",
+                      "title": "reprehenderit est deserunt velit ipsam",
+                      "url": "https://via.placeholder.com/600/771796",
+                    },
+                  ],
+                },
+              }
+            }
+          >
+            <p>
+              Album 
+              1
+            </p>
+            <img
+              alt="accusamus beatae ad facilis cum similique qui sunt"
+              src="https://via.placeholder.com/150/92c952"
+            />
+          </ForwardRef>,
+          <ForwardRef
+            to={
+              Object {
+                "pathname": "/2",
+                "state": Object {
+                  "album": Array [
+                    Object {
+                      "albumId": 2,
+                      "id": 86,
+                      "thumbnailUrl": "https://via.placeholder.com/150/fd5751",
+                      "title": "qui vel ut odio consequuntur",
+                      "url": "https://via.placeholder.com/600/fd5751",
+                    },
+                  ],
+                },
+              }
+            }
+          >
+            <p>
+              Album 
+              2
+            </p>
+            <img
+              alt="qui vel ut odio consequuntur"
+              src="https://via.placeholder.com/150/fd5751"
+            />
+          </ForwardRef>,
+          <ForwardRef
+            to={
+              Object {
+                "pathname": "/3",
+                "state": Object {
+                  "album": Array [
+                    Object {
+                      "albumId": 3,
+                      "id": 145,
+                      "thumbnailUrl": "https://via.placeholder.com/150/f3472e",
+                      "title": "eius unde ipsa incidunt corrupti quia accusamus omnis",
+                      "url": "https://via.placeholder.com/600/f3472e",
+                    },
+                    Object {
+                      "albumId": 3,
+                      "id": 146,
+                      "thumbnailUrl": "https://via.placeholder.com/150/6c746e",
+                      "title": "ullam dolor ut ipsa veniam",
+                      "url": "https://via.placeholder.com/600/6c746e",
+                    },
+                    Object {
+                      "albumId": 3,
+                      "id": 147,
+                      "thumbnailUrl": "https://via.placeholder.com/150/661f4c",
+                      "title": "minima aspernatur eius nemo ut",
+                      "url": "https://via.placeholder.com/600/661f4c",
+                    },
+                  ],
+                },
+              }
+            }
+          >
+            <p>
+              Album 
+              3
+            </p>
+            <img
+              alt="eius unde ipsa incidunt corrupti quia accusamus omnis"
+              src="https://via.placeholder.com/150/f3472e"
+            />
+          </ForwardRef>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <p>
+                Album 
+                1
+              </p>,
+              <img
+                alt="accusamus beatae ad facilis cum similique qui sunt"
+                src="https://via.placeholder.com/150/92c952"
+              />,
+            ],
+            "to": Object {
+              "pathname": "/1",
+              "state": Object {
+                "album": Array [
+                  Object {
+                    "albumId": 1,
+                    "id": 1,
+                    "thumbnailUrl": "https://via.placeholder.com/150/92c952",
+                    "title": "accusamus beatae ad facilis cum similique qui sunt",
+                    "url": "https://via.placeholder.com/600/92c952",
+                  },
+                  Object {
+                    "albumId": 1,
+                    "id": 2,
+                    "thumbnailUrl": "https://via.placeholder.com/150/771796",
+                    "title": "reprehenderit est deserunt velit ipsam",
+                    "url": "https://via.placeholder.com/600/771796",
+                  },
+                ],
+              },
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Album ",
+                  1,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Album ",
+                1,
+              ],
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "accusamus beatae ad facilis cum similique qui sunt",
+                "src": "https://via.placeholder.com/150/92c952",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bdVaJa",
+              "isStatic": true,
+              "rules": Array [
+                "
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 16px;
+    transition: background .1s ease-in-out;
+    &:hover {
+      background: #e3e3e3;
+    }
+",
+              ],
+            },
+            "displayName": "Styled(Link)",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bdVaJa",
+            "target": [Function],
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <p>
+                Album 
+                2
+              </p>,
+              <img
+                alt="qui vel ut odio consequuntur"
+                src="https://via.placeholder.com/150/fd5751"
+              />,
+            ],
+            "to": Object {
+              "pathname": "/2",
+              "state": Object {
+                "album": Array [
+                  Object {
+                    "albumId": 2,
+                    "id": 86,
+                    "thumbnailUrl": "https://via.placeholder.com/150/fd5751",
+                    "title": "qui vel ut odio consequuntur",
+                    "url": "https://via.placeholder.com/600/fd5751",
+                  },
+                ],
+              },
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Album ",
+                  2,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Album ",
+                2,
+              ],
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "qui vel ut odio consequuntur",
+                "src": "https://via.placeholder.com/150/fd5751",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bdVaJa",
+              "isStatic": true,
+              "rules": Array [
+                "
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 16px;
+    transition: background .1s ease-in-out;
+    &:hover {
+      background: #e3e3e3;
+    }
+",
+              ],
+            },
+            "displayName": "Styled(Link)",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bdVaJa",
+            "target": [Function],
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": "3",
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <p>
+                Album 
+                3
+              </p>,
+              <img
+                alt="eius unde ipsa incidunt corrupti quia accusamus omnis"
+                src="https://via.placeholder.com/150/f3472e"
+              />,
+            ],
+            "to": Object {
+              "pathname": "/3",
+              "state": Object {
+                "album": Array [
+                  Object {
+                    "albumId": 3,
+                    "id": 145,
+                    "thumbnailUrl": "https://via.placeholder.com/150/f3472e",
+                    "title": "eius unde ipsa incidunt corrupti quia accusamus omnis",
+                    "url": "https://via.placeholder.com/600/f3472e",
+                  },
+                  Object {
+                    "albumId": 3,
+                    "id": 146,
+                    "thumbnailUrl": "https://via.placeholder.com/150/6c746e",
+                    "title": "ullam dolor ut ipsa veniam",
+                    "url": "https://via.placeholder.com/600/6c746e",
+                  },
+                  Object {
+                    "albumId": 3,
+                    "id": 147,
+                    "thumbnailUrl": "https://via.placeholder.com/150/661f4c",
+                    "title": "minima aspernatur eius nemo ut",
+                    "url": "https://via.placeholder.com/600/661f4c",
+                  },
+                ],
+              },
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Album ",
+                  3,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Album ",
+                3,
+              ],
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "eius unde ipsa incidunt corrupti quia accusamus omnis",
+                "src": "https://via.placeholder.com/150/f3472e",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bdVaJa",
+              "isStatic": true,
+              "rules": Array [
+                "
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 16px;
+    transition: background .1s ease-in-out;
+    &:hover {
+      background: #e3e3e3;
+    }
+",
+              ],
+            },
+            "displayName": "Styled(Link)",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bdVaJa",
+            "target": [Function],
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bwzfXH",
+          "isStatic": true,
+          "rules": Array [
+            "
+    display: flex;
+    flex-wrap: wrap;
+    ",
+            ".sc-bdVaJa",
+            " {
+      width: ",
+            "16.666666666666668",
+            "%;
+      ",
+            "
+    @media (max-width: ",
+            "62",
+            "em) {
+      ",
+            "
+        width: ",
+            "33.333333333333336",
+            "%;
+      ",
+            "
+    }
+  ",
+            "
+      ",
+            "
+    @media (max-width: ",
+            "36",
+            "em) {
+      ",
+            "
+        width: 100%;
+      ",
+            "
+    }
+  ",
+            "
+    }
+",
+          ],
+        },
+        "displayName": "styled.section",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bwzfXH",
+        "target": "section",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

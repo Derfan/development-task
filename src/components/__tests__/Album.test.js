@@ -11,6 +11,10 @@ const props = {
 describe("Album", () => {
     const component = shallow(<Album {...props} />);
 
+    it("Album snapshot", () => {
+        expect(component).toMatchSnapshot();
+    });
+
     it("render", () => {
         expect(component.find(ListWrapper)).toHaveLength(1);
         expect(component.find(StyledLink)).toHaveLength(props.location.state.album.length);

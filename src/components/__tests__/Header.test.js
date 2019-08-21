@@ -11,6 +11,10 @@ const defaultProps = {
 describe("Header", () => {
     const component = shallow(<Header {...defaultProps} />);
 
+    it("Header snapshot", () => {
+        expect(component).toMatchSnapshot();
+    });
+
     it("render", () => {
         expect(component.find("h1")).toHaveLength(1);
         expect(component.find("p")).toHaveLength(1);

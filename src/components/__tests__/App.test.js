@@ -10,6 +10,8 @@ const albums = [
 ];
 
 describe("App", () => {
+    const component = shallow(<App/>);
+
     it("renders without crashing", () => {
         const div = document.createElement('div');
 
@@ -17,13 +19,16 @@ describe("App", () => {
         ReactDOM.unmountComponentAtNode(div);
     });
 
+    it("App snapshot", () => {
+        expect(component).toMatchSnapshot();
+    });
+
     it("should set albums in to state", () => {
-        const wrapper = shallow(<App/>);
-        const instance = wrapper.instance();
+        const instance = component.instance();
 
         instance.setAlbums(albums);
 
-        expect(wrapper.state().albums).toEqual(albums);
-        expect(wrapper.state().isLoading).toBeFalsy();
+        expect(component.state().albums).toEqual(albums);
+        expect(component.state().isLoading).toBeFalsy();
     });
 });
